@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:beige;
+}
+section{
+    height: 500px;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-items: center;
+    text-align: center;
+}
+section#hero{
+    background-color: lightgrey;
+    height: 600px;
+    }
+section#hero h1{
+    font-size: xx-large;
+    }
+h1{
+    font-size:large;
+}
+.informacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.detalle {
+    border: 6px silver coral;
+    border-radius: 15px;
+    width:300px;
+    margin: 20px;
+}
+.detalle img{
+    width:90%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color:rgb(236, 224, 208);
+    padding: 30px;
+    padding-bottom: 30px;
+}
